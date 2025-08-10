@@ -1,0 +1,112 @@
+# =============================================================================
+# Interviewer Assistant - Requirements File
+# =============================================================================
+
+# Core Framework
+agno>=0.2.0              # AI agent framework
+openai>=1.3.0            # OpenAI API client
+
+# Web Framework & API
+fastapi>=0.104.1         # Modern web framework
+uvicorn[standard]>=0.24.0      # ASGI server
+gunicorn>=21.2.0         # Production WSGI server
+python-multipart>=0.0.6  # Form data parsing
+starlette>=0.27.0        # ASGI framework components
+
+# Database & ORM
+sqlalchemy>=2.0.23       # SQL toolkit and ORM
+alembic>=1.13.0          # Database migration tool
+asyncpg>=0.29.0          # Async PostgreSQL driver
+aiosqlite>=0.19.0        # Async SQLite driver
+psycopg2-binary>=2.9.9   # PostgreSQL adapter (alternative)
+
+# Data Validation & Serialization  
+pydantic>=2.5.0          # Data validation using Python type hints
+pydantic-settings>=2.1.0 # Settings management
+email-validator>=2.1.0   # Email validation for pydantic
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0  # JWT token handling
+passlib[bcrypt]>=1.7.4   # Password hashing
+python-multipart>=0.0.6  # OAuth2 support
+
+# Environment & Configuration
+python-dotenv>=1.0.0     # Load environment variables from .env
+pyyaml>=6.0.1            # YAML configuration support
+
+# HTTP Client & External APIs
+httpx>=0.25.2            # Async HTTP client
+requests>=2.31.0         # HTTP library (fallback)
+aiohttp>=3.9.0           # Alternative async HTTP client
+
+# Document Processing
+PyPDF2>=3.0.1            # PDF text extraction
+python-docx>=1.1.0       # Word document processing
+openpyxl>=3.1.2          # Excel file processing
+python-magic>=0.4.27     # File type detection
+
+# Data Analysis & Processing
+pandas>=2.1.4            # Data manipulation and analysis
+numpy>=1.26.0            # Numerical computing
+scipy>=1.11.0            # Scientific computing
+
+# Logging & Monitoring
+structlog>=23.2.0        # Structured logging
+rich>=13.7.0             # Rich text and beautiful formatting
+loguru>=0.7.2            # Advanced logging (alternative)
+
+# Testing
+pytest>=7.4.3            # Testing framework
+pytest-asyncio>=0.21.1   # Async testing support
+pytest-cov>=4.1.0        # Coverage reporting
+pytest-mock>=3.12.0      # Mocking utilities
+factory-boy>=3.3.0       # Test data generation
+faker>=20.1.0            # Fake data generation
+
+# Development Tools
+black>=23.11.0           # Code formatting
+isort>=5.12.0            # Import sorting
+flake8>=6.1.0            # Code linting
+mypy>=1.7.1              # Static type checking
+pre-commit>=3.6.0        # Git hooks
+
+# Async & Concurrency
+asyncio-throttle>=1.0.2  # Rate limiting for async operations
+aiofiles>=23.2.1         # Async file operations
+
+# Caching
+redis>=5.0.1             # Redis client
+aioredis>=2.0.1          # Async Redis client
+
+# Job Queue (Optional)
+celery>=5.3.4            # Distributed task queue
+flower>=2.0.1            # Celery monitoring
+
+# Email & Notifications
+aiosmtplib>=3.0.1        # Async SMTP client
+jinja2>=3.1.2            # Template engine for emails
+
+# Calendar Integration
+google-api-python-client>=2.110.0  # Google Calendar API
+google-auth-httplib2>=0.1.1        # Google Auth
+google-auth-oauthlib>=1.1.0        # Google OAuth
+
+# Microsoft Office Integration (Optional)
+msal>=1.25.0             # Microsoft Authentication Library
+msgraph-sdk>=1.0.0       # Microsoft Graph SDK
+
+# Time & Date Utilities
+python-dateutil>=2.8.2   # Date parsing and manipulation
+pytz>=2023.3             # Timezone definitions
+
+# Utilities
+click>=8.1.7             # Command line interfaces
+typer>=0.9.0             # Modern CLI framework (alternative)
+pydash>=7.0.6            # Functional programming utilities
+
+# File Format Support
+chardet>=5.2.0           # Character encoding detection
+python-magic>=0.4.27     # File type detection
+
+# Security & Compliance
+cryptography>=41.0.7     # Cryptographic recipes
